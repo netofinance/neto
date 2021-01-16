@@ -1,0 +1,5 @@
+.node_module
+.next
+.build
+.github
+.husky
