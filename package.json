@@ -8,7 +8,9 @@
     "start": "next start",
     "prettier": "prettier --write ./pages",
     "eslint": "eslint .",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "prisma:migrate": "prisma migrate dev --preview-feature",
+    "prisma:studio": "prisma studio"
   },
   "dependencies": {
     "next": "10.0.5",
@@ -16,6 +18,7 @@
     "react-dom": "17.0.1"
   },
   "devDependencies": {
+    "@prisma/cli": "2.14.0",
     "@types/node": "^14.14.21",
     "@types/react": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^4.13.0",
